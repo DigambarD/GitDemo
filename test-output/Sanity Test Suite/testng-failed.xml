@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sanity Test Suite]">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="driverexe" value="D:\\Eclipse\\ChromeDrivers\\chromedriver.exe"/>
+  <test thread-count="5" name="Release 2022.5 Sanity Testing(failed)">
+    <groups>
+      <run>
+        <include name="P0"/>
+        <include name="P1"/>
+        <include name="P2"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.framework.tests.Ebay_Advanced_Search_Sanity">
+        <methods>
+          <include name="advanced_search_keywords_test"/>
+          <include name="Setup"/>
+          <include name="tearDown"/>
+          <include name="category_options_in_ascending_order_test"/>
+        </methods>
+      </class> <!-- com.framework.tests.Ebay_Advanced_Search_Sanity -->
+    </classes>
+  </test> <!-- Release 2022.5 Sanity Testing(failed) -->
+</suite> <!-- Failed suite [Sanity Test Suite] -->

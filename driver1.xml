@@ -1,0 +1,19 @@
+<suite name="Sanity Test Suite">
+	<parameters>
+		<parameter name="browser" value="chrome" />
+		<parameter name="driverexe" value = "D:\\Eclipse\\ChromeDrivers\\chromedriver.exe" />
+	</parameters>
+	<groups>
+		<run>
+			<include name="P0" />
+			<include name="P1" />
+			<include name="P2" />
+		</run>
+	</groups>
+	<test name="Release 2022.5 Sanity Testing">
+		<classes>
+			<class name="com.framework.tests.Ebay_Advanced_Search_Sanity" />
+			<class name="com.framework.tests.Ebay_Home_Sanity" />
+		</classes>
+	</test>
+</suite>

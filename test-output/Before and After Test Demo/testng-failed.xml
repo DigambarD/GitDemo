@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Before and After Test Demo]">
+  <test name="General Testing(failed)">
+    <classes>
+      <class name="com.framework.tests.DemoTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.framework.tests.DemoTest -->
+      <class name="com.framework.tests.Ebay_Advanced_Search_Sanity">
+        <methods>
+          <include name="Setup"/>
+          <include name="tearDown"/>
+          <include name="category_options_in_ascending_order_test"/>
+        </methods>
+      </class> <!-- com.framework.tests.Ebay_Advanced_Search_Sanity -->
+    </classes>
+  </test> <!-- General Testing(failed) -->
+</suite> <!-- Failed suite [Before and After Test Demo] -->
