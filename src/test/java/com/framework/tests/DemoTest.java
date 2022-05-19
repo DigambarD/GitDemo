@@ -81,5 +81,13 @@ public class DemoTest extends DataProviderTest {
 	  System.out.println(p3);
 	  System.out.println("----------------------------------");
   }
+  @Test
+  public void test6() {
+	  System.out.println("Git Demo Test-1");
+  }
+  @Test
+  public void test7() {
+	  System.out.println("Git Demo Test-2");
+  }
 
 }
